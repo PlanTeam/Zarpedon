@@ -5,7 +5,7 @@ public protocol ZarpedonHistoryNode: Serializable {
     
     var epochTime: Int32 { get }
     var event: Event { get }
-    var blame: User { get }
+    var blame: String { get }
     
     func makeState() -> State
 }

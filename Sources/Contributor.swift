@@ -1,1 +1,3 @@
-public protocol Contributor: Serializable { }
+public protocol Contributor: Serializable {
+    var uniqueIdentifier: String { get set }
+}
