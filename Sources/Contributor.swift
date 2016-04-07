@@ -1,1 +1,1 @@
-protocol Contributor: Serializable { }
+public protocol Contributor: Serializable { }

@@ -1,1 +1,1 @@
-protocol ZarpedonState: Serializable { }
+public protocol ZarpedonState: Serializable { }

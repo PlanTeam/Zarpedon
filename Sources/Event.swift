@@ -1,1 +1,1 @@
-protocol Zarpevent: Serializable { }
+public protocol Zarpevent: Serializable { }

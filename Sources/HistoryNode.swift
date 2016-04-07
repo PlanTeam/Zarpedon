@@ -1,4 +1,4 @@
-protocol ZarpedonHistoryNode: Serializable {
+public protocol ZarpedonHistoryNode: Serializable {
     associatedtype State: ZarpedonState
     associatedtype Event: Zarpevent
     associatedtype User: Contributor
