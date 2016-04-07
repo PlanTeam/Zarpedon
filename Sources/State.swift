@@ -1,0 +1,1 @@
+protocol ZarpedonState: Serializable { }
